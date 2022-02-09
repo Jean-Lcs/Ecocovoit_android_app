@@ -1,0 +1,122 @@
+=== Planning temporel PACT
+
+==== Taches / PAN1 13/11/19
+
+===== Générales
+
+* rapport:
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|sujet | Clarisse | 4/11/2020| Corrigé| Fait initialement par Clarisse, retouché par Adrien
+|sujet en anglais | Timothée | 4/11/2020 |Corrigé|Fait initialement par Timothée, retouché par Adrien
+|scenario |Rédigé par le groupe, importé par Timothée Ly| 29/10/2020 | Ajusté | 
+|architecture (schéma et documentation) | Timothée | 01/11/20| Fait | Revu par Clarisse 
+|découpage en modules |Rédigé par le groupe, importé par Timothée Ly| 29/10/2020|Fait|
+|planning temporel (ce document, personnalisé) | Timothée et Clarisse | 28/10/20 | Fait |
+|Mise en page et relecture |Adrien | 04/11/20| Fait |
+|Création et design de la storyboard | Jean | 04/11/20| Fait |
+|Interfaces| Timothée, Jean, Salhia, Youssef, Ghislain, Zihao | 04/11/20| Fait |
+|Blocs| Timothée, Jean, Clarisse, Salhia, Youssef, Ghislain | 04/11/20| Fait |
+|État de l'art| Youssef et Timothée | 01/11/20| Fait |
+|====
+
+////
+* présentation 15mn
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|préparation du document | | | |
+|répartition de la parole | | | |
+|répétition | | | |
+|====
+
+////
+
+////
+
+==== Taches / PAN2 20/01/20
+
+===== Générales
+
+* rapport
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|mise à jour selon remarques du jury | | | |
+|mise à jour de l’architecture | | | |
+|interfaces | | | |
+|plan de test par module et global | | | |
+|avancement | | | |
+|====
+
+* Prendre rdv avec vos experts pour le PAN2
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|module 1 | | | |
+|====
+
+===== Modules
+
+* Android
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Installation de l’outil Android Studio | | |
+|TP Android | | |
+|Squelette d’application | | |
+|GUI | | |
+|Plan de test | | |
+|====
+
+* Autres modules
+
+==== Tâches / PAN3 18/03/20
+
+===== Générales
+
+* Préparer un déroulé de la démo et du ``matériel'' de démo
+
+===== Modules
+
+* Android
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|asynctask pour client-serveur | | |
+|feature 1 | | |
+|feature 2 | | |
+|test | | |
+|====
+
+* …
+
+==== Tâches / PAN4 04/05/20
+
+===== Générales
+
+* poster pour le stand
+* présentation 4 slides
+* rapport: avancement, rapports de test
+
+===== Modules
+
+* Android
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|feature 8 | | |
+|feature 9 | | |
+|test | | |
+|====
+
+* …
+////

@@ -1,0 +1,71 @@
+=== Tableau détaillé des tâches
+
+////
+
+****Note : 2 pages max - les fiches modules seront placées en annexe,
+elles doivent être rédigées avec l’expert.****
+
+Les différents aspects du projet sont découpés en tâches numérotées et
+hiérarchisées (Tâches/sous-tâches, etc.). Chaque tâche est décrite
+précisément et une équipe (typiquement un binôme) est affecté à sa
+réalisation. Un module est typiquement constitué de plusieurs tâches et
+sous-tâches. Pour le PAN3, vous aurez à démontrer une version simple,
+*intégrée* et fonctionnelle de ce projet, nommée « prototype allégé ».
+Dans le Tableau 1, complétez la colonne « Intégrée au PAN3 » comme
+suit :
+
+* Intégrée au PAN3 : la sous-tâche est soit finie soit en cours et
+intégrée dans le prototype allégé.
+* Non-intégrée au PAN3 : la sous-tâche est en cours, mais non intégrée
+dans le prototype allégé, l’intégration se fera pour PAN4. L’avancement
+de la sous-tâche sera donc démontré au PAN3 indépendamment du prototype
+allégé (code MatLab ou autre)
+
+Certaines sous-tâches peuvent ne pas être démontrables dans le prototype
+allégé. Mettez-vous d’accord avec vos experts techniques pour savoir ce
+qu’il est réaliste de démontrer au PAN3. N’hésitez pas à redécouper en 2
+sous-taches, l’une démontrable au PAN3 et l’autre uniquement au PAN4.
+////
+
+[cols=",,^,",options="header",]
+|====
+| Tâche | Description                                           | Intégré au PAN3| Qui
+| T1    | *Application Android*                                 |     | 
+| T1.1  | Initialisation de l'application                       | X   |  Ghislain et Jean
+| T1.2  | Création de la page d'accueil                         | X   |  Ghislain et Jean
+| T1.3  | Création interface GPS                                |  X  | Ghislain et Jean
+| T1.4  | Création page de log in / sign in                     | X   | Ghislain et Jean
+| T2    | *Reconnaissance vocale*                            |     | Timothée et Zihao
+| T2.1  | Réception signal audio                             | X   | Timothée et Zihao
+| T2.2  | Décodage acoustico - phonétique                    | X   | Timothée et Zihao
+| T2.3  | Association à la ville correspondante              | X   | Timothée et Zihao
+| T2.4  | Association à l'heure correspondante               | X   | Timothée et Zihao
+| T3    | *Début calculs pollution*                             |     | Clarisse et Adrien
+| T3.1  | Mise en place d'un modèle d'émissions de CO2 / ptcl fines| X   | Clarisse et Adrien
+| T3.2  | Prise en compte des caractéristiques de la voiture    | X   | Clarisse et Adrien
+| T3.3  | Prise en compte état trafic / feux sur la route / conduite   |  X   | Clarisse et Adrien
+| T3.4    | Mise en place d'un score                          |     | Clarisse et Adrien
+| T4    | *Début Correspondaces et covoiturage*                             |     | Clarisse et Jean
+| T4.1  |    Mise en place algorithme de covoiturage                        |  X  | Clarisse et Jean
+| T4.2  |    Mise en place algorithme de correspondances                    |   X  | Clarisse et Jean
+| T4.3  |    Mise en relation données de BlaBlaCar avec données internes    |    | Clarisse et Jean
+| T5    | *Base de données*                                                 |     | Timothée et Sahlia
+| T5.1  | Choix du SGBD (système de gestion des bases de données)           | X   | Timothée et Sahlia
+| T5.2  | Définition des tables nécessaires                                 | X   | Timothée et Sahlia
+| T5.3  | Ajustement des clés primaires                                     | X   | Timothée et Sahlia
+| T5.4  | Intégration API Blablacar                                         |     | Timothée et Sahlia
+| T6    | *Communication client/serveur*                                    |     | Timothée et Sahlia
+| T6.1  | Sécurisation des flux de données                                  | X   | Timothée et Sahlia
+| T6    | *Bonification*                                                    |     | Sahlia et Youssef
+| T6.1  | Calculs prix d'un trajet                                        |  X  | Salhia et Youssef
+| T6.2  | Calculs réductions en fonction du score de pollution             |   X | Salhia et Youssef
+| T6.3  | Gestion du transfert de la monnaie fictive entre utilisateurs   |     | Salhia et Youssef
+| T6.4  | Établissement des règles du jeu (conditions précises d'attribution de points | X    | Salhia et Youssef
+| T7    | *calcul d'itinéraire*                                             |     | Ghislain et Youssef
+| T7.1    | Implémentation structure de graphe                              |   X | Ghislain et Youssef
+| T7.2    | Calcul de l'itinéraire le plus rapide                           |   X | Ghislain et Youssef
+| T7.3    | Calcul de l'itinéraire le plus court (en km)                    |   X | Ghislain et Youssef
+| T7.4.   | Tri des itinéraires en fonction de critères précis (pollution, temps, etc.) | X    | Ghislain et Youssef
+| T7.5    | Calcul de l'itinéraire le moins cher                            | X   | Ghislain et Youssef
+|====
+

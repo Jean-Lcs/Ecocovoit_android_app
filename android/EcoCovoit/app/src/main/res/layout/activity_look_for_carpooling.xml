@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LookForCarpoolingActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Adresse de départ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress2"
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Adresse d'arrivée"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Date de départ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="Heure de départ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="200dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="Nombre de place"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Button
+        android:id="@+id/btn_editjourneyactivity_sauvegarder"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:text="Sauvegarder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="674dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_pact_21" />
+</androidx.constraintlayout.widget.ConstraintLayout>

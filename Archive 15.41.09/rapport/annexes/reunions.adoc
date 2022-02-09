@@ -1,0 +1,27 @@
+
+////
+=== Comptes Rendus de réunions
+
+Insérez ici vos comptes rendus de réunions : date, durée, participants,
+sujets abordés.
+
+==== Réunion du dd/mm/yyyy
+
+* Présents:
+** AA
+** BB
+** CC
+* Sujets abordés
+** *xxx* : Nec, iaculis vel, mi. Nullam et augue vitae nunc tristique
+vehicula. Suspendisse eget elit. Duis adipiscing dui non quam.
+* Actions à entreprendre:
+** Fusce sollicitudin molestie dui. Sed magna orci, accumsan nec,
+viverra non, pharetra id, dui. Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit.
+** Interdum arcu, at pellentesque diam metus ut nulla. Vestibulum eu
+dolor sit amet lacus varius fermentum. Morbi dolor enim, pulvinar eget.
+
+
+
+
+////

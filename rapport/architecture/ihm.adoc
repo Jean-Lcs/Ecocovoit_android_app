@@ -1,0 +1,23 @@
+=== Interface utilisateur graphique
+////
+Il peut y avoir une ou plusieurs interfaces utilisateur (UI en anglais),
+ou interface graphique, ou interface homme machine (IHM) : une interface
+sur ordinateur et/ou une interface sur mobile ou tablette (Android),
+selon le nombre d’appareils en jeu.
+
+En lien avec un diagramme de séquence, une description simple de chaque
+écran/page est nécessaire. Il est recommandé de faire des dessins, même
+dessins au crayon photographiés ou scannés, car ce sont les meilleurs
+supports de discussion : on appelle souvent ces dessins un
+« storyboard ». Une description textuelle fait le lien entre tous les
+éléments de l’IHM (ou des IHMs).
+
+////
+
+
+image::../images/IHM.png[L'IHM de notre application]
+
+
+
+Lorsqu'un utilisateur ouvre l'application, il doit préalablement s'identifier pour accéder à la page d'accueil. Celle-ci affiche ses trajets (qu'il va effectuer) déjà enregistrés.
+À partir de cette page principale, l'utilisateur peut aussi créer un nouveau trajet de covoiturage (conducteur), en chercher proposer par un autre utilisateur (passager), ou modifier un trajet déjà enregistré. L'interface de création de nouveau trajet permet de visualiser les différentes options envisageables, et intègre la dictée vocale. Une fois le trajet validé et le jour du départ, l'application guide l'utilisateur vers sa destination.

@@ -1,0 +1,2 @@
+- Test avec les utilisateurs
+- Test avec les opérations de communication client serveur

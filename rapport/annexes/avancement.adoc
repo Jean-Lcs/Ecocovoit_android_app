@@ -1,0 +1,7 @@
+////
+=== Suivis des modules (Après PAN1)
+
+Insérez ici votre biblio et vos avancées techniques par module (réunions
+experts, pseudo-code d’algorithmes, description détaillée de vos réalisations, etc.).
+
+////

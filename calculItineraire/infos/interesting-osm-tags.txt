@@ -1,0 +1,67 @@
+Liste des osm tags et les valeurs qui pourrais nous interesse pour la recherche de chemin.
+
+highway
+	motorway // autoroute
+	trunk // rocade
+	primary //nationale
+	secondary //departementale
+	tertiary //municipale
+	unclassified
+	residential //routes au sein de la ville
+	rest_area //aires de repos
+	
+	motorway_link
+	trunk_link
+	primary_link
+	secondary_link
+	tertiary_link
+
+	living_street
+
+	road // for unknown types
+
+	traffic_signals //feux
+
+public_transport 
+	platform // affiche les stations de train, bus, ...
+
+amenity
+	terminal //terminal d'un aéroport 
+	college // campus universitaires
+	library
+	school
+	university
+	car_rental
+	fuel //stations essence
+	parking_entrance 
+	clinic
+	cinema
+	theatre
+	
+building
+	hotel
+	commercial //centre commercial
+	train_station
+	
+place
+	region
+	province
+	municipality
+	city
+	neighborhood
+
+addr: // pour trouver une adresse
+	housenumber
+	street
+	place 
+	postcode
+	city
+	full // Exemple : 11 rue Notre-Dame 
+
+Speed
+	maxspeed
+
+oneway // yes si bon sens ; no si double sens ; -1 si mauvais sens
+
+
+

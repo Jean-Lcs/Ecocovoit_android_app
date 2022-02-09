@@ -1,0 +1,44 @@
+=== Répartition des élèves par module
+////
+Note : Les modules sont négociables, avec l’accord explicite de l’expert
+(soit un email, soit une fiche signée). Aucun module sans expert ne sera
+accepté. Les descriptions de modules, ou fiches modules, rédigées en
+collaboration avec les experts rencontrés, seront ajoutées dans les
+annexes. Un module sans expert ne sera pas accepté. Toute modification
+au module doit être faite *avec l’accord préalable de l’expert*, et
+l’expert doit envoyer confirmation des changements au jury de votre
+groupe.
+
+Parmi les modules, il faut obligatoirement :
+
+* Un module « intégration et tests », dont l’expert responsable est
+votre encadrant informatique. Ce module intègre le travail sur des
+notions abordées en séances de Génie Logiciel, programmées avant le PAN1
+et entre PAN1 et PAN2 respectivement.
+* Un module SES
+////
+
+[cols=",^,^,^,^,^,^,^,^,^",options="header",]
+|====
+| Nom        | Module Android | Module Base de données et 
+Communication client serveur		 | Module Covoiturage et Correspondances | Module Recherche opérationnelle : Calcul d’itinéraire  | Module
+Calculs de pollution |Module Reconnaissance vocale| Module Points de récompense|  Module SES | Test & Intégration
+| Nom Expert |Jean Claude Dufourd |Jean Claude Dufourd|     Antoine Amarilli    | Anaïs Vergne |  
+	Leonardo Linguaglossa		|  Geoffroy Peeters       |     Myriam Davidovici       |			|	Lucien Maman	
+
+| Clarisse Bieder          |         |         |   X     |         |     X   |            |          |            |          
+
+| Timothée Ly              |         | X       |         |         |         |        X   |          |            |          
+
+| Salhia Darmon            |         |  X      |         |         |         |            | X        |            |         
+
+| Ghislain Kengne Gumete   | X       |         |         |   X     |         |            |          |            |          
+
+| Adrien Pointreau         |         |         |         |         |      X  |            |          |            |    X      
+
+| Jean Lucas               |     X   |         |   X     |         |         |            |          |            |          
+
+| Youssef Lahlou           |         |         |         |    X    |         |            | X        |            |   
+
+| Zihao Liu                |         |         |         |         |         |        X   |          |            |    X
+|====

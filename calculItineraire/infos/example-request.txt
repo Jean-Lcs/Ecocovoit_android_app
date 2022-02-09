@@ -1,0 +1,27 @@
+#Exemple 1: 
+node
+    [amenity=restaurant][name="Hosteria la Vacca M'briaca"]({{bbox}});
+out; 
+
+#Exemple 2: 
+
+/* This query looks for nodes, ways and relations 
+with the given key/value combination.
+*/
+[out:json][timeout:25];
+// gather results
+(
+  // query part for: “highway=motorway”
+  node["highway"="motorway"]({{bbox}});
+  way["highway"="motorway"]({{bbox}});
+  relation["highway"="motorway"]({{bbox}});
+);
+// print results
+out body;
+>;
+out skel qt;
+
+
+
+
+

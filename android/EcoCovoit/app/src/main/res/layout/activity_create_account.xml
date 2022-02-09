@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CreateAccountActivity"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/textView_createAccountActivity_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créez votre compte"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName_createAccountActivity_lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Prénom"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName_createAccountActivity_firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress__createAccountActivity_adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Adresse Postale:"
+        android:layout_marginTop="55dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress_createAccountActivity_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Adresse email:"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword_createAccountActivity_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:text="Mot de passe:"
+        android:layout_marginTop="55dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2_createAccountActivity_passwordConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:text="Confirmez le mot de passe:"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/button4_createAccountActivity_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="120dp"
+        />
+
+
+</LinearLayout>

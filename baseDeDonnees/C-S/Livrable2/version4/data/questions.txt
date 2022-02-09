@@ -1,0 +1,4 @@
+factorial:10
+Envoie l'image:smithers.jpg
+date:
+numberQuestionsAsked:

@@ -1,0 +1,56 @@
+////
+=== Modifications (PAN2+)
+
+==== Modifications de fond
+
+Tableau des modifications de fond apportées au projet avec validation
+des experts et encadrant informatique
+
+[cols=",,",options="header",]
+|====
+| libellé / date | Description brève | Validé par :
+|                |                   |
+|                |                   |
+|====
+
+==== Modifications du rapport
+
+
+Vous noterez dans cette section les modifications apportées au rapport
+depuis le PAN précédent. Si votre planification temporelle a été
+modifiée, vous laisserez l’ancienne planification dans cette annexe.
+
+===== Modifications du rapport au PAN2
+
+
+Fusce ac nisi. Integer volutpat elementum metus. Vivamus luctus
+ultricies diam. Curabitur euismod. Vivamus quam. Nunc ante. Nulla mi
+nulla, vehicula nec, ultrices a, tincidunt vel, enim.
+
+Suspendisse potenti. Aenean sed velit. Nunc a urna quis turpis imperdiet
+sollicitudin. Mauris aliquam mauris ut tortor. Pellentesque tincidunt
+mattis nibh. In id lectus eu.
+
+
+===== Modifications du rapport au PAN3
+
+
+Dolor aliquam elit, a commodo nisi felis nec nibh. Nulla facilisi. Etiam
+at tortor. Vivamus quis sapien nec magna scelerisque lobortis.
+
+Curabitur tincidunt viverra justo. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed eros ante,
+mattis ullamcorper, posuere quis, tempor vel, metus. Maecenas cursus
+cursus lacus. Sed.
+
+
+===== Modifications du rapport au PAN4
+
+Hac habitasse platea dictumst. Cras quis lacus. Vestibulum rhoncus
+congue lacus. Vivamus euismod, felis quis commodo viverra, dolor elit
+dictum ante, et mollis eros augue at est. Class aptent taciti sociosqu
+ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla
+lectus sem, tristique sed, semper in, hendrerit non, sem. Vivamus.
+
+
+////

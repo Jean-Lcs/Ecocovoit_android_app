@@ -1,0 +1,15 @@
+# Requête 1 : 
+
+/*
+Affiche les noeuds à proximité de la position de l'utilisateur
+Permet de trouver facilement son point de départ
+*/
+
+  ((node(48.8534, 2.3587, 48.8545, 2.3598); ) -> .b ;) ;
+  node(around[.b]:1)[highway] ;
+
+out body;
+>;
+out skel qt;
+
+#Requête 2 : 

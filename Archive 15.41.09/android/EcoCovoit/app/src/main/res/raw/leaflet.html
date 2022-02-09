@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link
+                rel="stylesheet"
+                href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+                integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+                crossorigin=""/>
+        <script
+                src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+    </header>
+
+    <body>
+        <div id="mapid" style="height: 500px;"></div>
+
+        <script type="text/javascript">
+
+            /* Needs :
+            - mPath
+            - mLocation
+            */
+
+            var mMarker;
+            var mMap;
+            var mPolyline;
+
+            // Init and show the map at the location from the Java.
+            var functionInitMap = function () {
+                mMap = L.map('mapid').setView([mLocation.lat(), mLocation.lon()], 25);
+                L.tileLayer(
+                    'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+                    {
+                        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    }
+                ).addTo(mMap);
+            }
+
+            // Draw the path, from the Java, on the map.
+            var functionDrawPath = function() {
+                var path = [];
+                for(let i=0; i<mPath.getLocationsCount(); i++) {
+                    path.push([mPath.getLocation(i).getLatitude(), mPath.getLocation(i).getLongitude()]);
+                }
+                mPolyline = L.polyline(
+                    path, {color: 'blue'}
+                ).addTo(mMap);
+            }
+
+            // Draw the location marker, at the location from the Java.
+            var functionDrawLocationMarker = function () {
+                mMarker = L.circle(
+                    [mLocation.lat(), mLocation.lon()],
+                    {
+                        color: 'red',
+                        fillColor: 'red',
+                        radius: 2
+                    }
+                ).addTo(mMap);
+            }
+
+            // Remove the path drawed on the map.
+            functionRemovePath = function () {
+                mPolyline.remove();
+            }
+
+            // Remove the location marker drawed on the map.
+            functionRemoveLocationMarker = function () {
+                mMarker.remove();
+            }
+
+            // Move the screen and zoom to show the path bounds.
+            functionShowPath = function () {
+                mMap.fitBounds(mPolyline.getBounds());
+            }
+
+            // Move the screen and zoom to show the location marker.
+            functionShowLocation = function () {
+                mMap.fitBounds(mMarker.getBounds(), {maxZoom: 17});
+            }
+
+            // Move the screen to the location from the Java.
+            functionMoveCurrentLocation = function () {
+                mMap.panTo([mLocation.lat(), mLocation.lon()]);
+            }
+
+            // Draw an all icons contained in mIcons on the map
+            functionDrawIcons = function () {
+                var iconI;
+                for(let i=0; i<mIcons.getIconsCount(); i++) {
+                    iconI = mIcons.getIcon(i);
+                    var icon = L.icon({
+                        iconUrl: iconI.getIconUrl(),
+                        iconSize: [iconI.getWidth(), iconI.getHeight()],
+                        iconAnchor: [iconI.getWidth()/2, , iconI.getHeight()/2]
+                    });
+                    for(let j=0; j<iconI.getLocationsCount(); j++) {
+                        var loc = iconI.getLocation(j);
+                        L.marker([loc.getLatitude(), loc.getLongitude()], {icon: icon}).addTo(mMap);
+                    }
+                }
+            }
+
+            functionInitMap();
+            functionDrawPath();
+            functionDrawLocationMarker();
+            functionDrawIcons();
+
+//            setInterval(
+//                function () {
+//                    functionRemoveLocationMarker();
+//                    functionDrawLocationMarker();
+//                },
+//                3000);
+        </script>
+    </body>
+</html>

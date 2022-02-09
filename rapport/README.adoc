@@ -1,0 +1,162 @@
+:blank: pass:[ +] 
+= Rapport d’avancement du groupe “2.1”
+{blank}
+//PACT groupe xy (Les plus beaux)
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+:doctype: book
+:stem: latexmath
+:source-highlighter: coderay
+:toc-title: Table des matières
+:toc: macro
+:sectnums:
+:imagesdir: images
+
+
+// Partie non numérotée
+:sectnums!:
+== « Groupe 2.1 : Application de covoiturage Eco-covoit »
+{blank}
+[.text-center]
+
+_Eco-covoit : le covoiturage facile et écologique !_
+
+[.text-center]
+.Logo de notre application mobile _Eco-covoit_
+image::../images/logo.png[Notre logo pact,400,400]
+
+{blank}
+{blank}
+{blank}
+
+=== Membres du groupe
+
+* Timothée Ly
+* Clarisse Bieder
+* Adrien Pointreau
+* Ghislain Kengne Gumete
+* Youssef Lahlou
+* Salhia Darmon
+* Jean Lucas
+* Zihao Liu
+
+{blank}
+
+=== Tuteur
+
+* Laurent Sauvage
+
+{blank}
+
+=== Encadrant génie logiciel
+
+* Lucien Maman
+
+{blank}
+{blank}
+
+== Résumé du sujet choisi en français (PAN1)
+
+// *_Note: 15 lignes max_*
+[.text-justify]
+Notre projet prend la forme d'une application innovante de covoiturage sur smartphone dans l'optique de réduire la pollution ainsi
+que de rendre plus efficace l'usage du covoiturage.
+[.text-justify]
+Cette idée répond à la thématique PACT "Le numérique au service de 
+l'humain" car l'application facilite les trajets en voiture tout en tâchant de minimiser
+l'empreinte carbone de ces derniers.
+[.text-justify]
+Le caractère innovant vient du fait que l'application permette à l'utilisateur d'accéder d'une ville A à une ville B par le biais de correspondances, comme cela a été implémenté pour les trains. Se voulant plus tournée sur 
+l’écologie que les applications existantes, elle favorise les trajets les moins polluants en attribuant au conducteur des points de récompense.
+
+{blank}
+{blank}
+
+== English Summary (PAN1)
+
+// *_Note : 15 lignes max, version anglaise du texte précédent_*
+[.text-justify]
+This project is a smartphone application devised for smart carpooling. It aims to make carpooling easier while reducing the carbon footprint that is generated.
+[.text-justify]
+This idea is clearly related to the PACT thematic "Digital at the service of people". Indeed, the application is
+created in order to help people getting around easily and at the same time reduce their carbon footprint.
+[.text-justify]
+Generally speaking, the application makes the user able to reach city B from city A using correspondances,
+as often implemented in public transportation. Tackling the ecologic issue more than other existing applications, drivers earn reward points when they foster
+the least polluting trips.
+
+{blank}
+{blank}
+
+
+ifndef::backend-pdf[]
+== Table des matières
+:toc-title:
+toc::[]
+endif::[]
+{blank}
+{blank}
+
+// On numérote le reste des sections
+:sectnums:
+
+== Étude d’antériorité et justification de la proposition (PAN1)
+
+include::proposition/proposition.adoc[Description de la proposition]
+
+{blank}
+{blank}
+
+include::proposition/etat-de-l-art.adoc[Description de l’état de l’art]
+
+{blank}
+{blank}
+
+== Scénarios d’usage (PAN1)
+
+include::scenario/scenario.adoc[Scénarios d’usage]
+
+<<<
+
+{blank}
+{blank}
+
+== Architecture du projet (PAN1)
+
+include::architecture/schema.adoc[Schéma d’architecture]
+
+include::architecture/interfaces.adoc[Description des interfaces]
+
+include::architecture/sequence.adoc[Diagramme de séquence]
+
+include::architecture/ihm.adoc[Interface utilisateur graphique]
+
+include::architecture/taches.adoc[Tableau détaillé des tâches]
+
+<<<
+== Organisation du projet (PAN1)
+
+include::organisation/planification.adoc[Diagramme de planification temporel des tâches]
+
+include::organisation/repartition.adoc[Répartition des élèves par module]
+
+include::organisation/plan-tests.adoc[Plans de test (PAN2+)]
+
+<<<
+
+[bibliography]
+== Bibliographie (PAN1+)
+
+include::References.adoc[Bibliographie]
+
+<<<
+
+
+//== Annexes
+
+include::annexes/modifications.adoc[Modifications (PAN2+)]
+
+include::annexes/avancement.adoc[Avancement des modules]
+
+include::annexes/moduleX.adoc[Avancement module X]
+
+include::annexes/moduleY.adoc[Avancement module Y]

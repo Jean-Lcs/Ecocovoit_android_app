@@ -1,0 +1,30 @@
+////
+
+*_Note : Liste des références exploitées. Une référence complète
+donne titre, auteur(s), date, journal, revue, source de publication,
+titre de conférence, numéro, pages. Une webographie est aussi
+envisageable : titre, auteur, date, page web_*
+
+////
+
+//* [[RefShannon]]RefShannon : *C. E. SHANNON*, _A Mathematical Theory
+//of Communication_, Reprinted with corrections from The Bell System
+//Technical Journal, pages 379–423, 623–656, Vol. 27, 1948,
+//http://sites.google.com/site/parthochoudhury/aMToC_CShannon.pdf
+//* [[VitrinePACT]]VitrinePACT : _Vitrine des projets PACT_,
+//https://pact.wp.mines-telecom.fr/vitrine/
+//* [[TOTO]]XXX : *M. S. Otor*, _Best paper ever_, Livre de la jungle,
+//Volume 2, pages 33-34, 1777
+* [[INSEE,1]]INSEE : _Sept salariés sur dix vont travailler en voiture_, février 2019,
+https://www.insee.fr/fr/statistiques/3714237
+* [[Gouv,2]] Gouvernement : _Les chiffres clés du covoiturage_, juillet 2020,
+https://www.ecologie.gouv.fr/covoiturage-en-france-avantages-et-reglementationen-vigueur
+
+* [[Wikipedia,3]] Wikipedia: _BlaBlaCar_,
+https://fr.wikipedia.org/wiki/BlaBlaCar
+
+* [[FreeCovoiturage,4]] Site Web de l'application
+https://www.freecovoiturage.fr
+
+* [[Sénat,5]] Sénat : _Les nuisances environnementales de l'automobile_
+https://www.senat.fr/rap/r01-113/r01-1132.html

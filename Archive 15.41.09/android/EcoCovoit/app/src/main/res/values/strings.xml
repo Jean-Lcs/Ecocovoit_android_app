@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Eco Covoit</string>
+
+    <!-- LES URLS -->
+    <string name="url_server">https:://covoit.fr</string>
+
+    <!-- LES MESSAGES D'ERREURS -->
+    <string name="error_without_code">Erreur sans code.</string>
+    <string name="error_unknown_error">Erreur inconnue.</string>
+    <string name="error_non_error">Pas d\'erreur.</string>
+    <string name="error_unknown_network_error">Erreur inconnue sur le reseau.</string>
+    <string name="error_not_connected">Le mobile n\'est pas connecte.</string>
+    <string name="error_connexion_fail">La connexion au serveur a echouee.</string>
+    <string name="error_bad_address">L\'addresse est erronee ou introuvable.</string>
+    <string name="error_unknown_server_error">Erreur inconnue notifiee par le serveur.</string>
+    <string name="error_bad_request">Le serveur ne comprend pas la requete.</string>
+    <string name="error_unauthorized">Le client n\'est pas connecte et il a besoin de l\'etre pour effectuer la requete.</string>
+    <string name="error_forbiden">Le client est connecte mais il n\'a pas le droit de faire la requete.</string>
+    <string name="error_not_found">Le serveur n\'a pas pu trouver de reponse.</string>
+    <string name="error_internal_server_error">Une erreur interne est survenie du cote serveur.</string>
+    <string name="error_server_unavaillable">Le serveur n\'est pas pret a traiter la requete.</string>
+
+    <!-- LES MESSAGES -->
+    <string name="msg_cannot_disconnect">Impossible de se deconnecter</string>
+    <string name="msg_disconnected">Vous etes deconnecte</string>
+    <string name="msg_connected">Vous etes connecte</string>
+    <string name="msg_cannot_connect">Impossible de se connecter</string>
+    <string name="msg_inscripted">Vous etes inscris</string>
+    <string name="msg_cannot_inscription">Impossible de s\'inscrire</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- LES LABELS DE MENUS -->
+
+    <!-- LES LABELS D'ITEMS DE MENUS -->
+
+    <!-- LES LABELS DE BOUTONS -->
+
+    <!-- CODE LEAFLET -->
+    <string name="leaflet_header">  </string>
+    <string name="leaflet_body"></string>
+    <string name="title_activity_create_account">CreateAccountActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

@@ -1,0 +1,25 @@
+////
+=== Plans de test (PAN2+)
+
+Vous allez travailler sur chaque bloc de votre projet, et qu’il soit
+informatique, électronique ou matériel, vous allez devoir faire du
+test :
+
+* tester que le bloc que vous venez de finir fait ce qu’il faut ;
+* tester que le bloc fonctionne avec les blocs en amont ou en aval dans
+l’architecture ;
+* tester que les performances sont acceptables…
+* et plus globalement, tester que le projet « marche ».
+
+Vous allez devoir faire ce travail sur le prototype allégé, puis sur le
+prototype final. C’est un travail dans le module « intégration et
+tests ».
+
+Cette section rassemble les plans de test du proto allégé et du proto
+final. C’est une liste des tests à effectuer, sous la forme, pour chaque
+test :
+
+* situation/contexte
+* action ou entrée à appliquer
+* réaction ou sortie attendue.
+////

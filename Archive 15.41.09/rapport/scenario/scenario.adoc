@@ -1,0 +1,73 @@
+=== Scénarios d’usage
+////
+Mettre ici le scénario d’usage que vous avez construit lors des séances
+encadrées par les experts SES. Vous pouvez mettre un scénario amélioré
+(et non celui noté) si vous jugez votre scénario insuffisant pour faire
+comprendre au jury PACT les différentes étapes d’utilisation de votre
+produit/service ou si vous avez changé d’idées entre temps.
+////
+
+==== Description générale du scénario
+
+Jeanne aimerait avoir plus de souplesse avec son application de covoiturage et réduire au maximum son empreinte carbone lors de ses déplacements en voiture.
+Les applications existantes ne lui proposent pas d’avoir des correspondances lors de ses trajets, ce qui réduit les propositions de voyages de l’application,
+tant au niveau des destinations que des horaires choisis. C’est parce qu’elle n’utilise pas Eco-covoit !
+
+Cette application de covoiturage se veut novatrice! De par deux points:
+
+	- Les covoiturages proposés ne se limitent pas seulement à un matching des points de départ et d’arrivée. 
+		L’utilisateur rentre une date de départ, un point de départ et un point d’arrivée. 
+		L’application va alors proposer des trajets avec ‘correspondances’ à la manière d’une ligne ferroviaire. Prenons un exemple:
+		Jeanne veut aller de Paris à Marseille le 8 décembre à 7h00. L’application lui propose alors les itinéraires: 
+		1) “Trajet de Paris à Lyon avec le conducteur A : départ à 7h00, arrivée à 12h30 environ suivi d’un trajet de Lyon à Marseille avec le conducteur B 
+		: départ à 13h20; arrivée à 19h30 environ”.
+		2) “Trajet de Paris à Marseille avec un seul conducteur: départ à 12h; arrivée 23h” 
+		Le deuxième itinéraire est clairement moins intéressant que le premier car il correspond moins aux désirs de Jeanne.
+		
+	- Les trajets les plus écologiques (avec plusieurs personnes dans la voiture, en empruntant des routes où l’on roule moins vite de sorte à 
+	minimiser la consommation d’essence) et l’éco-conduite sont récompensés par des points qui permettent ensuite d’avoir des réductions 
+	pour effectuer d’autres trajets dans l’application. En effet, le bilan carbone de chaque trajet est calculé à l’avance, 
+	sont donc récompensés les trajets les moins polluants, qui peuvent cependant être les plus longs. 
+
+
+==== Utilisation pas à pas de l'application
+
+Nous allons ici voir comment un utilisateur (qu'il soit conducteur ou passager) utiliserait pas à pas notre application de covoiturage.
+
+* Tout d’abord l’utilisateur peut se connecter en utilisant son adresse mail ainsi qu’un mot de passe défini lors de son inscription. 
+Si l’utilisateur est nouveau, il peut s’inscrire en entrant son adresse mail et un mot de passe. 
+Si l’utilisateur est conducteur il sera invité à entrer des informations sur son véhicule importantes pour les calculs de pollution.
+* L’utilisateur arrive ensuite sur un menu où sont rentrés les trajets qu’il a déjà réservés comme conducteur ou passager (s’il a déjà utilisé l’application).
+Ce menu sera vide lors de la première utilisation.
+* À partir de ce menu l’utilisateur a plusieurs possibilités :
+** Chercher un trajet en covoiturage en entrant la date et l’heure de départ et le lieu de départ, le lieu de destination, 
+et si oui ou non il souhaite emprunter un trajet « _écologique_ ». L’utilisateur pourra le faire manuellement ou par commande vocale.
+** Proposer un trajet de covoiturage en tant que conducteur : avec les mêmes entrées que la première possibilité.
+** Modifier un trajet enregistré, en modifiant les entrées.
+** Supprimer un trajet.
+* L’utilisateur pourra ensuite voir quels sont les itinéraires proposés par l’application. 
+Pour le passager qui a éventuellement plusieurs possibilités de correspondances, il pourra ainsi choisir l’itinéraire qui lui convient le mieux.
+* En cliquant sur commencer maintenant (sur le téléphone du conducteur), celui-ci voit apparaitre sur son écran le GPS qui va le guider jusqu’à destination 
+en empruntant l’itinéraire choisi.
+
+////
+==== XX
+
+Nulla. Curabitur aliquet leo ac massa. Praesent posuere lectus vitae
+odio. Donec imperdiet urna vel ante. In semper accumsan diam. Vestibulum
+porta justo. Suspendisse egestas commodo eros.
+
+Suspendisse tincidunt mi vel metus. Vivamus non urna in nisi gravida
+congue. Aenean semper orci a eros. Praesent dictum. Maecenas pharetra
+odio ut dui. Pellentesque.
+
+==== YY
+
+Ac mauris.
+
+Duis velit magna, scelerisque vitae, varius ut, aliquam vel, justo.
+Proin ac augue. Nullam auctor lectus vitae arcu. Vestibulum porta justo
+placerat purus. Ut sem nunc, vestibulum nec, sodales vitae, vehicula
+eget, ipsum. Sed nec tortor. Aenean malesuada. Nunc convallis, massa eu
+vestibulum commodo, quam mauris interdum arcu, at pellentesque.
+////

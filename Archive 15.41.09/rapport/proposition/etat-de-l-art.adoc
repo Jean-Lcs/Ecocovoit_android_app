@@ -1,0 +1,28 @@
+=== Description de l’état de l’art
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+
+////
+*_Note : 1 page max._*
+
+Décrivez, en les citant via la bibliographie, les approches/produits
+ressemblant à votre projet et les différences éventuelles. Illustrez
+avec des images si besoin. Utilisez des renvois vers votre
+bibliographie : « comme démontré dans [2], … »
+
+////
+==== Blablacar
+[.text-justify]
+Lorsque l'on parle de covoiturage, la première application qui nous vient en tête est Blablacar.
+Comme il est fait état dans <<3>>,c'est une plateforme de covoiturage créee en 2006 par la société Comuto et qui se situe leader mondial 
+avec 70 millions d'utilisateurs.
+Le système de correspondances lors de son trajet, ainsi que l'orientation du covoiturage vers un modèle plus écologique (choix de trajets écologiques) ne sont pas mis en avant dans l'application Blablacar. 
+[.text-center]
+image::../images/logo_blablacar.png[Logo Blablacar] 
+
+==== Free Covoiturage
+[.text-justify]
+Cette application de covoiturage se veut également respectueuse de l'environnement. En effet, on peut lire sur le site ( voir <<4>>) qu'ils se disent "entièrement engagés pour la planète". Leur solution est donc de planter un arbre à chaque fois que 10 trajets sont réservés. Cependant, cette approche *n'est pas systémique* puisqu'elle ne traite pas directement la cause du problème (pollution par la voiture). 
+De plus, c'est le conducteur qui détermine sur FreeCovoiturage l'itinéraire qu'il empruntera, ce qui suppose l'utilisation d'un GPS qui n'indiquera pas forcément le trajet le plus respectueux de l'environnement. 
+[.text-center]
+image::../images/free-covoiturage.png[Logo Free Covoiturage,459,203]
+

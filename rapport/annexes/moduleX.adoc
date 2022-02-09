@@ -1,0 +1,46 @@
+////
+=== Module X
+
+==== Descriptions
+
+[source,cpp]
+----
+#include <iostream>
+
+using namespace std;
+
+class M
+{
+public:
+   void hello()
+   {
+      cout << "hello" << endl;
+   }
+};
+
+int main()
+{
+   M m;
+   m.hello();
+   return 0;
+}
+----
+
+
+[source,c]
+----
+include::code/test.c[]
+----
+
+Et l'équation:
+
+[latexmath]
+++++
+A \in \mathcal{M}_{u,k}(\mathbb{R}) et B \in \mathcal{M}_{k,f}(\mathbb{R})
+++++
+
+==== Avancement
+
+==== Bibliographie spécifique
+
+////

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditJourneyActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/txtv_editjourneyactivity_depart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Départ:"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <EditText
+        android:id="@+id/edittxt_editjourneyactivity_depart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <TextView
+        android:id="@+id/txtv_editjourneyactivity_arrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrivée:"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <EditText
+        android:id="@+id/edittxt_editjourneyactivity_arrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+
+    <Button
+        android:id="@+id/btn_editjourneyactivity_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+
+    <Button
+        android:id="@+id/btn_editjourneyactivity_heure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heure"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <TextView
+        android:id="@+id/txtv_editjourneyactivity_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <EditText
+        android:id="@+id/edittxt_editjourneyactivity_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+
+
+    <TextView
+        android:id="@+id/txtv_editjourneyactivity_heure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heure:"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <EditText
+        android:id="@+id/edittxt_editjourneyactivity_heure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <TextView
+        android:id="@+id/txtv_editjourneyactivity_voiture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voiture:"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <EditText
+        android:id="@+id/edittxt_editjourneyactivity_voiture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+    <Button
+        android:id="@+id/btn_editjourneyactivity_sauvegarder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sauvegarder"
+        android:layout_margin="@dimen/margin_editactivityjourney"/>
+
+</LinearLayout>

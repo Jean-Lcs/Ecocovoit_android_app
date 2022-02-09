@@ -1,0 +1,69 @@
+#Syntaxe Overpass (OpenStreet map):
+
+- Node : représente un point dans l’espace (latitude et longitude)
+
+Exemples : 
+
+node[name=”nom”] ; // recherche le mode dont le nom est "nom".
+
+ou 
+
+node [latitude min, longitude min, latitude max, longitude max]; // pour délimiter et répertorier les noeuds dans une zone de la carte
+
+- Way : ensemble de nodes. Ils peuvent représenter une portion de route, des rues, ou des polygones.
+
+Exemples :
+
+way[name=”nom”] ; // renvoie le Way qui porte le nom "nom"
+
+ou
+
+way({{bbox}}) ; renvoie l’ensemble des ways sur le rectangle de la carte
+
+Ou 
+
+<way id="3869982">
+    <tag k="highway" v="residential"/>
+
+- relation (rel): ensemble de doublets <node/way, rôle>. Ils peuvent représenter des routes
+
+Exemple:
+
+<relation id="11828743">
+    <member type="way" ref="845612897" role="street"/>
+    <member type="way" ref="45518911" role="street"/>
+    <member type="node" ref="5222745901" role="house"/>
+    <member type="node" ref="677672384" role="house"/>
+    <tag k="bicycle:type" v="trekking"/>
+    <tag k="from" v="Paris"/>
+    <tag k="name" v="Véloroute du Nord Paris - Beaumont-sur-Oise"/>
+    <tag k="network" v="ncn"/>
+    <tag k="opening_date" v="2020"/>
+    <tag k="ref" v="V32"/>
+    <tag k="route" v="bicycle"/>
+    <tag k="to" v="Beaumont-sur-Oise"/>
+    <tag k="type" v="route"/>
+</relation>
+
+- area : 
+
+Exemple : area[name="name"] 
+
+- Instructions de récursion : sélectionne en fonction du paramètre donné tous les éléments qui sont membres d'un élément du lot d'entrée lot ou qui ont un élément du lot d'entrée en tant que membre.
+Les mots-clés commençant par n font une recherche au sein du lot d’entrée ; ceux qui n’ont pas de n le font en dehors du lot d’entrée
+	
+	On pose query € {node, way, rel}. Instructions de récursion :
+		- query(n.lot) ; //recherche des éléments à l’aval de noeuds (node) du lot d’entrée nommé lot
+		- query(w.lot) ; // recherche des éléments à l’aval de chemins (way) du lot d’entrée nommé lot
+		- query(r.lot) ; // recherche des éléments à l’aval de relations (rel) du lot d’entrée nommé lot
+		- query(bn.lot) ; // recherche des éléments à l’amont de noeuds (node) du lot d’entrée nommé lot
+		- query(bw.lot) ; // recherche des éléments à l’amont de chemins (way) du lot d’entrée nommé lot
+		- query(br.lot) ; // recherche des éléments à l’amont de relations (rel) du lot d’entrée nommé lot
+
+- query(q:”rôle”) ; // avec query € {node, way, rel} et q € {bn, bw, br, w, r}
+// Réalise une recherche pour des q qui ont un rôle spécifique nommé rôle.
+Exemple : node(r.lot:”rôle”) ; // sélectionne tous les noeuds qui sont membres des relations parentes du lot d’entrée lot, et qui ont le rôle rôle
+
+- node.lot1.lot2 ; // renvoie tous les nodes qui sont à la fois dans le lot lot1 et le lot lot2
+
+- query(area.lot) ; // renvoie l’ensemble des éléments de type query qui sont à l’intérieur de la zone choisie (ici lot). Peut être utile si on veut faire une recherche sur une seule partie de la carte seulement

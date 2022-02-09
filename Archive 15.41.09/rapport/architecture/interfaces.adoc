@@ -1,0 +1,100 @@
+=== Description des interfaces (PAN1 / PAN2)
+////
+Pour le PAN1, il faut identifier et décrire sommairement toutes les
+interfaces entre modules.
+
+Pour le PAN2, il faut une description complète des interfaces.
+
+Il faut ici une description textuelle de chaque interface, c’est à
+dire +
+chaque échange entre deux blocs. Si c’est une interface entre deux
+blocs +
+informatiques, c’est une interface Java. S’il y a des échanges de +
+données complexes, il faut en décrire le format avec grande précision.
+Si c’est une interface +
+entre deux blocs électroniques, c’est une description des signaux +
+électroniques. Etc.
+
+////
+[.text-justify]
+==== InterfaceBloc1-2
+
+Interface unité de calcul/serveur.
+
+L’unité de calcul reçoit des prononciations de ville stockées sur un serveur via des requêtes dans la base de données.
+Il s'agit donc d'une interface Python/SQL (la base de données sera très probablement une base SQL).
+
+(Le type de données est encore incertain car les recherches techniques en sont à leur prémice).
+
+
+[.text-justify]
+==== InterfaceBloc1-5
+
+Interface client/unité de calcul.
+
+L’application étant codée en Java et l’algorithme de reconnaissance vocale en Python, cela correspond donc à une interface Java/Python.
+Des données audio sont envoyées à l’unité de calcul depuis le smartphone sous le type flac(?).
+
+L’unité de calcul renvoie ensuite au smartphone une chaîne de caractères parsée correspondant à :   +
+#Nom de ville de départ; Nom de ville d’arrivée; heure de départ sous le format <heure : minutes>#
+
+
+[.text-justify]
+==== InterfaceBloc4-6 
+
+Le module pollution envoie la quantité de matières polluantes émises durant le trajet, qui est ensuite traitée par le module bonification afin de générer un nombre de points de récompense (grâce un algorithme sous python).
+La donnée est renvoyée à la base de données SQL.
+
+[.text-justify]
+==== InterfaceBloc2-4
+
+Le module base de données fournit au module bonification le nombre de places disponibles dans le véhicule lorsqu'un conducteur propose un trajet de covoiturage.
+Le module de bonification génère alors un nombre de points de récompense grâce à un algorithme sous python.
+Cette donnée est ajoutée à celle issue de l'interface bloc4-6 (concernant la pollution).
+Enfin, le nombre de points de récompense total est renvoyé à la base de données SQL.
+
+[.text-justify]
+==== InterfaceBloc 2-7
+
+La quasi totalité des données venant du module base de données est envoyée aux modules de covoiturage, notamment : l'endroit de départ, l'endroit d'arrivée, l'heure de départ, l'heure d'arrivée et le nombre de place disponible. 
+
+Les types de données et les formats sont à préciser.
+
+[.text-justify]
+==== InterfaceBloc 3-7
+
+L’interface entre ces deux modules est une interface informatique.   +
+
+Le module calcul d’itinéraire recherchera, après demande de l’utilisateur, l’ensemble des trajets possibles pour aller d’un point A à un point B. 
+Le module covoiturage se charge alors de l’attribution des trajets que réaliseront les conducteurs et les passagers,
+et l'éventualité de correspondances.
+Ce module recherchera, dans les itinéraires proposés suite au calcul d’itinéraires, quelles combinaisons de trajets sont possibles pour aller de A à B 
+en passant peut-être par des voies ou des villes différentes.   +
+
+Pour ce faire, le module calcul d’itinéraire enverra les données traitées vers la base de données. 
+Le module covoiturage effectuera alors une recherche dans la base de données. 
+Ainsi, la communication entre le module covoiturage et le module calcul d’itinéraire s'effectue grâce au module base de données.
+
+[.text-justify]
+==== InterfaceBloc 4-5
+Les points de récompense calculés dans le module de bonification sont transmis à l'interface Android, permettant l'affichage de ce nombre de points à l'utilisateur.
+
+
+[.text-justify]
+==== InterfaceBloc 6-7
+
+Suite à la détermination préliminaire d'un trajet grâce au module covoiturage, la quantité de matière polluante émise sur ce trajet sera calculée, en tenant compte des spécificités du parcours routier (trafic / véhicule / nombre de personnes à bord /etc.).
+
+
+[.text-justify]
+==== InterfaceBloc 2-5
+
+L'utilisateur du module Android inscrit manuellement, au travers de l'application, l'heure et le lieu de départ puis sa destination. Toutes ces informations sont envoyées au module base de donnée.
+
+[.text-justify]
+==== InterfaceBloc 2-3
+
+Les informations données par l'utilisateur (heure, lieu de départ et destination) sont envoyées au module de calcul d'itinéraire. S'en suit une proposition d'itinéraire (voies empruntées, villes traversées) donnée finalement à l'utilisateur.
+
+==== InterfaceBloc 3-5
+L'itinéraire intial sans covoiturage calculé par le module calcul d'itinéraire et l'itinéraire de covoiturage sont transmis au module android.

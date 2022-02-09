@@ -1,0 +1,11 @@
+////
+
+=== Diagramme de séquence (optionnel)
+
+Insérer ici un ou plusieurs diagrammes de séquence ou d’activité du
+projet. Voir le cours d’introduction au Génie Logiciel. 
+Il peut y avoir plusieurs diagrammes, un par scénario. S’il y
+a dans le projet un dialogue client-serveur, il peut être utile de faire un
+diagramme de séquence spécifique pour ce dialogue. 
+
+////
