@@ -1,5 +1,5 @@
 # Bienvenu sur le dépôt git du groupe PACT 2.1
-
+![cover](https://github.com/Jean-Lcs/Ecocovoit_android_app/blob/main/rapport/images/logo.png)
 
 **Nouvelle organisation!!!!**
 
